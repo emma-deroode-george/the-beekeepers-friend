@@ -5,7 +5,9 @@
     text-align: center;
     
 }
-
+hr{
+    width: 75%;
+}
 .navbar{
     background-color: #f0e9e9;
     display:inline-flex ;
@@ -21,14 +23,23 @@
     background-color: #f0e9e9;
     color: inherit;
 }
+nav > * {
+    background-color: #f0e9e9;
+} 
+a img {
+    background-color: #f0e9e9;
+}
+.navbar-footer{
+    background-color: #f0e9e9;
+    display:inline-flex ;
+    width: 100%;
+    border-top: solid 2px #B05574;
+}
 .jumbotron{
     margin: 25px;
     padding: 0;
     border: 1px;
     border-color: #fbfafb solid;
-}
-hr{
-    width: 75%;
 }
 .carousel-indicators{
     margin: 10px;
@@ -38,21 +49,41 @@ hr{
     overflow: hidden;
     object-fit: contain;
 }
-.navbar-footer{
-    background-color: #f0e9e9;
-    display:inline-flex ;
-    width: 100%;
-    border-top: solid 2px #B05574;
-}
 .carousel-control-next{
-height: 400px;
-width: 50px;
+    height: 400px;
+    width: 50px;
+    /*background-color: #B05574;*/
 }
 .carousel-control-prev{
     height: 400px;
     width: 50px;
+    /*background-color: #B05574;*/
+}
 
-    }
-.navbarNavDropdown.collapse.navbar-collapse{
-    background-color: #f0e9e9;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: #B05574;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #B05574;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #B05574;
+}
+
+.about-img img{
+    height: 350px;
+    width: auto;
+}
+.testimonials img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50% ;
+    overflow: hidden;
 }

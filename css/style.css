@@ -95,7 +95,7 @@ a img {
 @media (max-width: 1500px) { 
     .navbar-brand{
         font-family: "Amatic SC", "Open Sans", "Times New Roman";
-        font-size: 30px;
+        font-size: 15px;
         background-color: #f0e9e9;
     }
     .navbar-brand img{

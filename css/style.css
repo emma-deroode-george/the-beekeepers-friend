@@ -76,35 +76,58 @@ a img {
 }
 .testimonials img{
     height: 200px;
-   /* width: auto;
-    border-radius: 50%;*/
+    width: 135px;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-}
-.resource-cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 33%;
-    margin-left: 60px;
-    margin-top: 15px;
- 
+    margin: 2%;
 }
 .resource-cards img{
     height: 200px;
+}
+/* 18 Nov 2020*/
+.resource-cards{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.home-about-us img{
+    height: 400px;
+    width: auto;
 }
 
 @media (max-width: 768px) { 
     .navbar-brand{
         font-family: "Amatic SC", "Open Sans", "Times New Roman";
         font-size: 40px;
-        background-color: black;
     }
-}
-@media (max-width: 768px){
     .navbar-brand img{
         height: 30px;
         width: 30px;
     }
+    .about img{
+        height: auto;
+        width: 345px;
+        padding: 0px;
+    }
+    .how-it-works img{
+        height: auto;
+        width: 300px;
+    }
+    .home-about-us img{
+        height: auto;
+        width:300px ;
+    }
 }
+@media (min-width: 768px )
+{
+    .resource-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 33%;
+        margin-left: 60px;
+        margin-top: 15px;
+     
+    }
+}
+
 
 
 

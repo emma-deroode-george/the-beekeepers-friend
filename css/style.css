@@ -96,8 +96,10 @@ a img {
     .navbar-brand{
         font-family: "Amatic SC", "Open Sans", "Times New Roman";
         font-size: 40px;
-        background-color: #f0e9e9;
+        background-color: black;
     }
+}
+@media (max-width: 768px){
     .navbar-brand img{
         height: 30px;
         width: 30px;

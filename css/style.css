@@ -70,6 +70,9 @@ a img {
     width: 50px;
     /*background-color: #B05574;*/
 }
+.fix-top{
+    margin-top: 95px;
+}
 .about-img img{
     height: 350px;
     width: auto;
@@ -91,6 +94,88 @@ a img {
 .home-about-us img{
     height: 400px;
     width: auto;
+}
+
+.beekeeping_community {
+    position: relative !important;
+    height: 60vh !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    background-image: url('../images/pass-the-honey.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-left: 0% !important;
+    margin-bottom: 0% !important
+}
+.beekeeping_community h1 {
+    background-color:#f0e9e9 !important;
+    opacity: .75 !important;
+}
+
+.beekeeping_community svg {
+    position: absolute !important;
+    background-color: transparent !important;
+    bottom: 30px !important;
+}
+
+.beekeeping_community2 {
+    position: relative !important;
+    height: 60vh !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    background-image: url('../images/beekeeping-in-winter.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-left: 0% !important;
+    margin-top: 0%;
+    margin-bottom: 0% !important
+}
+.beekeeping_community2 h1 {
+    background-color:#f0e9e9 !important;
+    opacity: .75 !important;
+}
+
+.beekeeping_community2 svg {
+    position: absolute !important;
+    background-color: transparent !important;
+    bottom: 30px !important;
+}
+
+/*SHOP*/
+.jjpoke {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60vh;
+    overflow: hidden;
+}
+.e {
+    background-color: #F8DFCF;
+}
+.e h1 {
+    background-color: #F8DFCF;
+}
+.d{
+    width: 100%;
+    height: auto;
+}
+.jjpoke img{
+    height: auto;
+    width: 700px;
+    align-self: center;
+}
+
+@media (max-width: 1125px) { 
+    .jjpoke {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns:none;
+        grid-template-areas: 
+        "d" 
+        "e";
+    }
 }
 
 @media (max-width: 768px) { 

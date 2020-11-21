@@ -28,11 +28,12 @@ hr{
     border-bottom: solid 5px #B05574;
 }
 .navbar-toggler{
-    border-color: black;
     padding: 0px;
 }
-.navbar-toggler-icon{
-    color: black;
+.navbar-toggler-icon img{
+   background-color: transparent;
+    width: 30px;
+    height: 30px;
 }
 nav > * {
     background-color: #f0e9e9;
@@ -160,6 +161,9 @@ a img {
 .e h1 {
     background-color: #F8DFCF;
 }
+.e h3 {
+    background-color: #F8DFCF;
+}
 .e p {
     background-color: #F8DFCF;
 }
@@ -190,36 +194,38 @@ a img {
     width: 94vw;
     height: 50vh;
 }
+
 #mywork {
     display: flex;
     flex-direction: column;
-    width: 75vw;
-    height: 500px;
+    width: 100vw;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
-.about {
+.watercolor {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 5%;
-    padding: 1%;
     width: fit-content;
 }
 
-.about h1 {
-    margin-top: 60px;
+.watercolor h1 {
+    margin-top: 10px;
     font-size: 30px;
 }
 
 .pic1 {
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     margin: 10px;
 }
 
+
+
 /*resources*/
+
 .resources-fancy {
     position: relative !important;
     height: 60vh !important;
@@ -279,49 +285,66 @@ a img {
     bottom: 30px;
 }
 
+
 /* 3 image query*/
+
 @media only screen and (min-width: 1025px) {
     #two {
         flex-direction: row;
         height: 40vh;
     }
-}
-@media only screen and (min-width: 1025px) {
+    
     #mywork {
         flex-direction: row;
         height: 325px;
         width: 98vw;
+        
     }
-}
-@media only screen and (min-width: 1025px) {
-    .pic1 {
-        height: 150px;
-        width: 150px;
-        margin: -60px;
+
+    .div1-2 h1{
+        margin-right: 75px;
+        margin-left: 75px;
+        padding: 1%;
     }
-    .div1-2 p{
-        width: 300px;
-        height: 90px;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .div1-2 p{
-        width: 360px;
-        height: 70px;
+    .div1-2 img{
+        margin-right: 75px;
+        margin-left: 75px;
+        padding: 1%;
     }
 }
 /*Cards querys*/
-@media (max-width: 1125px) { 
+@media (max-width: 1028px) { 
     .jjpoke {
-        height: 100vh;
         display: grid;
-        grid-template-rows: 50% 50%;
-        grid-template-columns:none;
+        grid-template-rows: 50% 50% ;
+        grid-template-columns: none;
         grid-template-areas: 
         "d" 
         "e";
     }
 }
+
+@media (max-width: 768px) { 
+    .jjpoke {
+        height: 80vh;
+        width: auto;
+        display: grid;
+        grid-template-rows: 50% 50% ;
+        grid-template-columns: none;
+        grid-template-areas: 
+        "d" 
+        "e";  
+    }
+    .shop_container img {
+        height: auto;
+        width: 100vw;
+    }
+
+    .d {
+    background-color: #F8DFCF;
+    }
+}
+
 
 @media (max-width: 768px) { 
     .navbar-brand{

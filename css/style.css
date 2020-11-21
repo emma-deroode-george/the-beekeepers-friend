@@ -170,7 +170,17 @@ a img {
     height: auto;
     width: 700px;
     align-self: center;
+    margin-right: 20px;
 }
+
+.quote h1{
+    font-family: "Amatic SC";
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 /*Three images*/
 #two {
     margin: 5px;
@@ -255,6 +265,58 @@ a img {
     bottom: 30px !important;
 }
 
+/*20 Nov 2020*/
+
+.hexagon_button h1 {
+    background-color: transparent;
+    margin-top: 40px;
+}
+.hexagon_button svg {
+    position: absolute;
+    background-color: transparent;
+    background-position: center;
+    bottom: 30px;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
 /* 3 image query*/
 @media only screen and (min-width: 1025px) {
     #two {

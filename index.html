@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWC2MFY3XG"></script>
-     <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
- 
-     gtag('config', 'G-RWC2MFY3XG');
-     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWC2MFY3XG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RWC2MFY3XG');
+    </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -29,6 +29,9 @@
         href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="java-script/index.js">
     <title>The Beekeeper's Friend</title>
 </head>
@@ -101,10 +104,84 @@
     </nav>
 
     <div class="jumbotron beekeeping_community fix-top">
+    </div>
+
+
+    <div class="jumbotron quote">
         <h1 class="display-4">“On a mission to make the world as sweet as can bee”</h1>
     </div>
 
-    <!-- Three pictures-->
+
+    <!--SHOP-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+        <div class="carousel-inner shop_container">
+            <div class="carousel-item active">
+                <div class="jjpoke hexagon_button">
+                    <img class="d" src="images/beauty_soap.jpeg" alt="First slide" class="fireball">
+                    <div class="e">
+                        <h1>Beauty</h1>
+                        <p>Find this all honey and oat cream body soap to add an all natural glow to your routine.</p>
+                        <a href="other-pages/shop.html" role="button">
+                            <svg width="87.5" height="100">
+                                <polyline id="hexagon" points="43.5,0 87,25 87,75 43.5,100 0,75 0,25 43.5,0"
+                                    onclick="changeFill()" fill="#F2C45A" />
+                                <text x="43.75" y="50" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">
+                                    See More
+                                </text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item big_brain">
+                <div class="jjpoke hexagon_button">
+                    <img class="d" src="images/AmbrosiaBlossom_V001144_Main.jpeg" alt="First slide">
+                    <div class="e">
+                        <h1>Taste of Honey</h1>
+                        <p>Locally sourced and packed with health benefits, honey is the perfect addition to your home
+                            for your taste buds and your wellness. Find out more about how important honey and bees are
+                            to our environment in the resources section.</p>
+                        <a href="other-pages/shop.html" role="button">
+                            <svg width="87.5" height="100">
+                                <polyline id="hexagon" points="43.5,0 87,25 87,75 43.5,100 0,75 0,25 43.5,0"
+                                    onclick="changeFill()" fill="#F2C45A" />
+                                <text x="43.75" y="50" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">
+                                    See More
+                                </text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jjpoke hexagon_button">
+                    <img class="d" src="images/candle2.jpeg" alt="First slide">
+                    <div class="e">
+                        <h1>Candles</h1>
+                        <p>Adding some light to your life never got easier with this homemade citrus honey candle. Hand
+                            crafted from local artists to fill your life with care and community.</p>
+                        <a href="other-pages/shop.html" role="button">
+                            <svg width="87.5" height="100">
+                                <polyline id="hexagon" points="43.5,0 87,25 87,75 43.5,100 0,75 0,25 43.5,0"
+                                    onclick="changeFill()" fill="#F2C45A" />
+                                <text x="43.75" y="50" fill="#FFFFFF" text-anchor="middle" alignment-baseline="middle">
+                                    See More
+                                </text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
     <section id="mywork">
         <div class="watercolor div1">
@@ -126,53 +203,6 @@
             </div>
         </div>
     </section>
-   
-
-    <!--SHOP-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
-        <div class="carousel-inner shop_container">
-            <div class="carousel-item active">
-                <div class="jjpoke">
-                    <img class="d f" src="images/beauty_soap.jpeg" alt="First slide" class="fireball">
-                    <div class="e">
-                        <h1>Beauty</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item big_brain">
-                <div class="jjpoke">
-                    <img class="d" src="images/AmbrosiaBlossom_V001144_Main.jpeg" alt="First slide">
-                    <div class="e">
-                        <h1>Taste of Honey</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="jjpoke">
-                    <img class="d" src="images/candle2.jpeg" alt="First slide">
-                    <div class="e">
-                        <h1>Candles</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!--SHOP-->
-
-    <div class="jumbotron quote">
-        <h1 class="display-4">“I eat my peas with honey
-            I’ve done it all my life
-            It makes the peas taste funny
-            But it keeps them on the knife!” - Ogden Nash</h1>
-    </div>
 
     <div class="jumbotron beekeeping_community2">
         <h1 class="display-4">This season's tip is how to keep your bees safe in the snow</h1>
@@ -190,4 +220,5 @@
     </footer>
 
 </body>
+
 </html>

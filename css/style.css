@@ -352,6 +352,16 @@ a img {
         "d" 
         "e";  
     }
+    .e p {
+        background-color: #F8DFCF;
+        font-size: 18px;
+        margin: 20px;
+    }
+    .f p {
+        background-color: white;
+        font-size: 18px;
+        margin: 20px;
+    }
     .shop_container img {
         height: auto;
         width: 100vw;
